@@ -69,6 +69,7 @@ services:
   # https://hub.docker.com/r/zilliz/attu
   # https://github.com/zilliztech/attu
   # ---- Milvus Web UI (Attu) ----
+  # 连接方式：localhost:8000
   attu:
     container_name: attu
     image: zilliz/attu:v2.6.3
